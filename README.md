@@ -18,7 +18,7 @@ vmlinux-to-elf <input_kernel.bin> <output_kernel.elf>
 Installation:
 ```bash
 # With uv
-sudo snap install astral-uv
+sudo snap install --classic astral-uv
 uv tool install vmlinux-to-elf
 
 # Or with pipx
